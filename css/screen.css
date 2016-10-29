@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+/* Keep reset CSS to one minified line */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* ===== BASE STYLES ===== */
+
+/*
+	Setting type to a minor third modular scale
+	http://www.modularscale.com/?18&px&1.2&web&text
+
+*/
+
+/* Tabs style*/
+ul#tabs {
+list-style: none;
+margin: 0;
+padding: 0.5em 0;
+border-bottom: 0.063em solid #CCC;
+font-weight: bold;
+text-align: center;
+white-space: nowrap
+}
+ul#tabs li {
+display: inline;
+margin: 0 0.167em;
+}
+ul#tabs a {
+text-decoration: none;
+padding: 0 0 0.167em;
+border-bottom: 0.25em solid #FFF;
+color: #ede3e1
+  }
+ul#tabs a#current {
+border-color: #101861;
+color:#6b8aca
+}
+ul#tabs a:hover {
+border-color: #ef0041;
+color: #fc4d7d;
+}
+
+
+html{
+  font-size:1.125em;/*18px*/
+	line-height: 1.12em; /* 21/18=1.12em*/
+	padding:1.2em 0.86em;/* 1.2em is 1gridline and 18/21=0.86em */
+	background-color: #e1a6b6;
+	color: #101861;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+h1{
+	font-size:2.07em;/* 37.325px/18px=2.07 */
+	line-height: 1.206em; /* 45/37.325=1.206em */
+	color:#e12152;
+	padding:1.0em;
+	padding-bottom: 0.2em;
+	padding-left: 0em;
+}
+
+h2{
+	color: #6b8aca;
+	font-size:1.5em; 
+	padding:0.5em;
+	padding-left: 0em;
+}
+
+h3{
+	color: #ae93b4;
+	font-size:1.5em; 
+	padding:0.3em;
+	padding-left: 0em;
+	padding-top: 0em;
+}
+
+p1{
+	padding:1em;
+	color: #ede3e1;
+}
+strong1{
+	padding:0.5em;
+	color:#ff4888;
+}
+
+ul{
+	padding-bottom:0.2em;/* 1 gridline */
+	color:#101861;
+}
+
+li{
+	padding-bottom: 0.5em; /* half grid line 10px/20px = 0.5em */
+	color:#101861
+}
+
+li:last-child{
+
+
+	padding-bottom: 0.5em;
+
+}
+/* ===== Layout STYLES ===== */
+.container{
+	display:flex;
+}
+#page{
+	padding:1.222em 0.916em;/* 16.5px */
+
+}
+#header{
+	pdding-top:3.667em;/* 66px (button_gridline)/18px =3.667*/
+
+}
+#navigation{
+	position:absolute;
+}
+.navigation li{
+	display:inline-block;
+	padding:0em;
+}
+.navigation{
+	line-height: 1;
+	padding:0;
+}
+.navigation li a {
+	display:block;
+	background-color:#101861;
+	color:#ede3e1;
+	text-decoration:none;
+	padding:20%;
+	padding-top: 0.722em;/* 13px/18px=.722em */
+	padding-bottom: 0.722em;
+}
+.spotphoto{
+	margin-left:-1.222em;
+	margin-right:-1.222em;
+}
+.spotphoto figcaption{
+	padding-left:1.222em;
+	padding-right:1.222em;
+}
+img,
+video{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0.5em;
+  padding-left:0.2em;
+} 
+/* ===== MODULAR STYLES ===== */
+
+.content ul{
+	list-style-type: disc;
+}
+
+.exception li{
+	list-style-style:none;
+}
+.header ul{
+	padding-left:1em;
+}
+.video iframe{
+	position:relative;
+	padding:1em 1em;
+	width:100%;
+	height:100%;
+}
+/* ===== State STYLES ===== */
