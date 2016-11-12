@@ -23,7 +23,6 @@ html {
   background-color: #e1a6b6;
   color: #101861;
   font-family: Calibri, Arial, sans-serif;
-  background-image: url(http://basehold.it/i/22/#ede3e1);
   padding-left: 0.0825em;/*33px/400px=0.0825 */
   padding-right: 0.0825em;/*33px/400px=0.0825 */
 }
@@ -82,7 +81,7 @@ header {
 
 ul {
   padding: 0.611;
-  padding-bottom: 0.311em;/* half gridline */
+  padding-bottom: 0.3055em;/* 1/4 gridline */
   color: #101861;
   font-size: 1em;
   line-height: 1.222em;  /*22px/18px=1.222 */
@@ -133,7 +132,7 @@ header {
 }
 
 #page {
-  padding: 1.222em 0.916em;/* 16.5px */
+  padding: 1.222em 0.916em;/*22px/18px=1.222 */
 
 }
 #header {
