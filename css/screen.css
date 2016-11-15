@@ -218,7 +218,32 @@ header {
   margin-right: auto;
   padding: 0.2em;
 }
+.github {
+  width: 4.444em;
+  height: 4.444em;
+  border: 0;
+}
+.facebook {
+  width: 4.444em;
+  height: 4.444em;
+  border: 0;
+}
 
+.linkedin {
+  width: 4.444em;
+  height: 4.444em;
+  border: 0;
+}
+.twitter {
+  width: 4.444em;
+  height: 4.444em;
+  border: 0;
+}
+.instagram {
+  width: 4.444em;
+  height: 4.444em;
+  border: 0;
+}
 img,
 video {
   max-width: 100%;
