@@ -183,34 +183,10 @@ header {
   margin-right: auto;
   padding: 0.2em;
 }
-.a {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.2em;
-}
-.b {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.2em;
-}
-.c {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.2em;
-}
-.d {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.2em;
-}
+.a,
+.b,
+.c,
+.d,
 .e {
   display: block;
   max-width: 100%;
@@ -218,28 +194,7 @@ header {
   margin-right: auto;
   padding: 0.2em;
 }
-.github {
-  width: 4.444em;
-  height: 4.444em;
-  border: 0;
-}
-.facebook {
-  width: 4.444em;
-  height: 4.444em;
-  border: 0;
-}
-
-.linkedin {
-  width: 4.444em;
-  height: 4.444em;
-  border: 0;
-}
-.twitter {
-  width: 4.444em;
-  height: 4.444em;
-  border: 0;
-}
-.instagram {
+.social-media {
   width: 4.444em;
   height: 4.444em;
   border: 0;
